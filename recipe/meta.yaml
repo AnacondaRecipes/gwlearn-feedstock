@@ -1,6 +1,6 @@
 {% set name = "gwlearn" %}
 {% set python_min = "3.11" %}
-{% set version = "0.1.0" %}
+{% set version = "0.1.1" %}
 
 package:
   name: {{ name|lower }}
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/gwlearn-{{ version }}.tar.gz
-  sha256: 44d5b913928570eb7f80cea5f705f46484385ef434c44195e49ef701538c714d
+  sha256: a125d559f9a38f8285b80dd1c8d89225f9c1bce87874ff25f8312af2e35d0a66
 
 build:
   noarch: python
